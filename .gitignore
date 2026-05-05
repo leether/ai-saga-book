@@ -31,3 +31,4 @@ book-output/
 *.pdf
 *.tmp
 *.bak
+__pycache__/
