@@ -42,11 +42,12 @@ jobs:
       - name: Build PDF (Typst)
         run: |
           python3 scripts/build_pdf_typst.py
+          mv "智能涌动.pdf" ai-saga.pdf
 
       - name: Build EPUB
         run: |
           pandoc 全书.md \
-            -o "智能涌动.epub" \
+            -o ai-saga.epub \
             --metadata title="智能涌动" \
             --metadata author="新褶" \
             --metadata lang="zh" \
@@ -56,7 +57,7 @@ jobs:
       - name: Build DOCX
         run: |
           pandoc 全书.md \
-            -o "智能涌动.docx" \
+            -o ai-saga.docx \
             --metadata title="智能涌动" \
             --metadata author="新褶" \
             --toc
@@ -71,9 +72,9 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            智能涌动.pdf
-            智能涌动.epub
-            智能涌动.docx
+            ai-saga.pdf
+            ai-saga.epub
+            ai-saga.docx
           body: |
             ## 智能涌动
 
