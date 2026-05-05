@@ -22,12 +22,12 @@
 <table>
 <tr>
 <td align="center">
-<img src="../images/xinzhe-qr.jpg" width="150" /><br/>
+<img src="images/xinzhe-qr.jpg" width="150" /><br/>
 <b>微信公众号：新褶</b><br/>
 继续阅读 AI 观察
 </td>
 <td align="center">
-<img src="../images/AI-world-qr.jpg" width="150" /><br/>
+<img src="images/AI-world-qr.jpg" width="150" /><br/>
 <b>微信群：AI 大世界</b><br/>
 加入读者交流
 </td>
